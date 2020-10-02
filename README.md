@@ -1,4 +1,4 @@
-# FomaSREvaluation
+# Foma FST Evaluation
 
 This script compiles an FST using foma, which is used to transduce
 a list of underlying representations (UR) into their surface representations (SR). 
