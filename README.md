@@ -26,9 +26,17 @@ To run this evaluation code you need to:
 
 ### Usage
 
-This should run without a problem on a Mac and Linux machines. This might run on Windows, but you will need to change the extension of `run.sh` to `.bat` and remove the bash shebang on top of the script.
+This script should run without a problem on Mac and Linux. 
 
 You can either run the script by giving the proper execution permits through `chmod +x run.sh` and calling it through `./run.sh`, or by calling it through `bash run.sh`.
 
 
-### Screenshot
+### Output
+
+After runnig the script you will have two ouput files and the results printed on screen. The output files are:
+1. `somali.fst`: the compiled FST
+1. `somali_xfst.out` the output of running `somali.xfst` with `UR.lst` as input
+
+The column printed out from left to right are: UR, SR, FST OUTPUT. It should look like the following:
+
+![screenshot](imgs/screenshot.png)
