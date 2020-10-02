@@ -1,0 +1,7 @@
+! Add your FST code here
+
+! Save FST to disk
+save stack somali.fst
+
+! Close interactive terminal
+exit
