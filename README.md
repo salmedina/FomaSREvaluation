@@ -2,8 +2,8 @@
 
 This script compiles an FST using foma, which is used to transduce
 a list of underlying representations (UR) into their surface representations (SR). 
-Then it evaluates the output of the FST written in Foma and displays the errors on screen.
-The evaluation script prints in red where the FST output is different from the ground truth.
+Then it evaluates the output of the FST and displays the errors on screen.
+The evaluation script prints in red from the first character that is differente betwen the FST output and the ground truth.
 
 ### Installation
 
